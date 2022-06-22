@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script>
+        function onSwitchOn() {
+            var element = document.body;
+            element.className = "darkmode";
+        };
+        function onSwitchOff() {
+            var element = document.body;
+            element.className = "lightmode";
+        }
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div>
+            <h3>Did you know?</h3>
+        </div>
+        <div>
+            Dark mode :
+            <button type="link" class="switch" onclick="onSwitchOn()"> ON</button>
+            <button type="link" class="switch" onclick="onSwitchOff()"> OFF</button>
+
+        </div>
+    </header>
+    <h3>Star from the past?</h3>
+    <div class="container">
+        <div class="picture">
+            <img class="image" src="images/stars.jpg" alt="stars">
+        </div>
+        <div class="description">
+            <p> Did you know? When you are looking at a far away star, you are actually looking in the past. That star
+                maybe has already died.
+                <br>
+                <br>
+                When you go outside at night and gaze upon the sky, it seems eternal and unchanging. But that’s our own
+                human limitation coloring our minds. We live on a much shorter time scale than the stars. But we’ve
+                studied them, learned about them, and now have a great deal of understanding of them. Stars are much
+                like us, in fact: They are born, they live for an amount of time, and they die. Some fade away, some
+                explode, but in the end, like us, they are mortal.
+                That’s a modern realization. And it’s spawned a modern fable, too, which I have seen here and there,
+                usually propagated through social media.
+                <br>
+                Told as a morality tale, to give us a sense of perspective, it states this:
+                When looking at stars, you’re actually looking into the past. Many of the stars we see at night have
+                already died.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
